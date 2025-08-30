@@ -1,0 +1,64 @@
+body{
+font-family: "Oswald", sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.highlight{
+    color: goldenrod;
+    
+}
+.half-width{
+    width: 35%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.top-banner{
+    /* background-image: url(picture/bbbb1.jpg); */
+    background-repeat: no-repeat;
+} 
+section{
+    height: 400px;
+    padding-bottom: 800px;
+}
+.button1{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: goldenrod;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+h3{
+   color: goldenrod; 
+}
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 40%;
+}
+/* .experience {
+    background-image: url(picture/8718.jpg);
+    background-repeat: no-repeat;
+    background-size: 150px;  scale image 
+    background-position:  top left;
+} */
+#developer1 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, goldenrod, rgb(214, 203, 103)) 1;
+    border-image-slice: 1;
+    border-radius: 5px;  /* reapply */
+}
+
+#developer2 {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(16, 77, 176), rgb(98, 156, 242)) 1;
+    border-image-slice: 1;
+    border-radius: 5px;  /* reapply */
+}
+
